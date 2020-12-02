@@ -16,7 +16,7 @@ export default function App() {
      if(target.name ==='green'){
       setColor('green');
       setLight('GREEN');
-       console.log(color);
+      
      }
 
 
