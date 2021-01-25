@@ -23,7 +23,7 @@ export default function App() {
    }
   return (
     <>
-    <h1 className={styles[color]}>{light}</h1>
+    <div className={styles[color]}>{light}</div>
     <button name ="red" onClick={handleClick}>red</button>
     <button name="yellow" onClick={handleClick}>yellow</button>
     <button name="green" onClick={handleClick}>green</button>
