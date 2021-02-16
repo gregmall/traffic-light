@@ -23,7 +23,13 @@ export default function App() {
    }
   return (
     <>
-    <div className={styles[color]}>{light}</div>
+    <div className = {styles.main}>
+    <div className = {styles[color]}>
+      <div className ={styles.one}></div>
+    <div className={styles.two}></div>
+    <div className={styles.three}></div>
+    </div>
+    </div>
     <button name ="red" onClick={handleClick}>red</button>
     <button name="yellow" onClick={handleClick}>yellow</button>
     <button name="green" onClick={handleClick}>green</button>
