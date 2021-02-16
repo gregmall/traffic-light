@@ -30,6 +30,7 @@ export default function App() {
     <div className={styles.three}></div>
     </div>
     </div>
+    
     <button name ="red" onClick={handleClick}>red</button>
     <button name="yellow" onClick={handleClick}>yellow</button>
     <button name="green" onClick={handleClick}>green</button>
